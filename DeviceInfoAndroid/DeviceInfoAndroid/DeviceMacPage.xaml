@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DeviceInfoAndroid.DeviceMacPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Device MAC:"
+               FontSize="16"
+               Padding="30,0,30,30"/>
+            <Label x:Name="LblDMac1"
+                HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="LblDMac2"
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Phone Info ->"
+                HorizontalOptions="CenterAndExpand"
+                Clicked="Button_Clicked" />
+            <Label x:Name="LblDMac3"
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

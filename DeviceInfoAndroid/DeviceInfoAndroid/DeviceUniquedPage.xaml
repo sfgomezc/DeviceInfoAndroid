@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DeviceInfoAndroid.DeviceUniquedPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Device uniqued Id:"
+               FontSize="16"
+               Padding="30,0,30,30"/>
+            <Label x:Name="LblDIdentifier"
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DeviceInfoAndroid.DeviceInfoPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Device info using Xamarin.Essentials:"
+               FontSize="16"
+               Padding="30,0,30,30"/>
+            <Label x:Name="LblDModel"
+                HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="LblDManufacturer"
+                HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="LblDName"
+                HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="LblDVersion"
+                HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="LblDVersionString"
+                HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="LblDPlatform"
+                HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="LblDIdiom"
+                HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="LblDDeviceType"
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

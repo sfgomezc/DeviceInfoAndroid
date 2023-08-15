@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DeviceInfoAndroid.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3"
+               Padding="24"
+               CornerRadius="0">
+            <Label Text="Device Information"
+                   HorizontalTextAlignment="Center"
+                   TextColor="White"
+                   FontSize="36"/>
+        </Frame>
+        <Label Text="Get device info using Xamarin.Essentials"
+               FontSize="16"
+               Padding="30,0,30,0"/>
+        <Button Text="Device Info ->"
+                HorizontalOptions="CenterAndExpand"
+                Clicked="Button_Clicked" />
+        
+        <Label Text="Get device uniqued Id"
+               FontSize="16"
+               Padding="30,0,30,0"/>
+        <Button Text="Device Uniqued ID ->"
+                HorizontalOptions="CenterAndExpand"
+                Clicked="Button_Clicked_1" />
+
+        <Label Text="Get device MAC"
+               FontSize="16"
+               Padding="30,0,30,0"/>
+        <Button Text="Device MAC ->"
+                HorizontalOptions="CenterAndExpand"
+                Clicked="Button_Clicked_2" />
+    </StackLayout>
+
+</ContentPage>
